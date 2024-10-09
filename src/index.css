@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a.active hr{
+    display: block;
+}
+
+.prata-regular {
+    font-family: "Prata", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+*{
+    font-family: Outfit;
+}
+
+#perfume::-webkit-scrollbar{
+    display: none;
+}
+
+/* For Sidebar Color */
+
+@media (max-width:640px){
+    a.active{
+        background-color: black;
+        color: white;
+    }
+}
+
+
+#imageo{
+    background-size: cover;
+    background-position-y: center;
+}
